@@ -90,7 +90,7 @@ char* my_strcpy(char* dest, const char* src)
 	char* ret = dest;
 	assert(dest != NULL);//断言
 	assert(src != NULL);//断言
-
+	//把src指向的字符串拷贝到dest指向的空间，包含'\0'字符
 	while (*dest++ = *src++)
 	{
 		;
